@@ -9,9 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -62,10 +59,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "mouse";
