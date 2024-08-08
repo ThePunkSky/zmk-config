@@ -9,15 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        closeWindow: closeWindow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "CLOSEWINDOW";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
